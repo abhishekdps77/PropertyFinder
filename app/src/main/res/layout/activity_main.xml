@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#DEEDF0">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/home_icon"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browse Latest Properties"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:padding="10dp"/>
+
+    <!--First Card-->
+
+    <LinearLayout
+        android:id="@+id/card_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:src="@drawable/property_1_img_1"
+            android:layout_weight="1"/>
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="128dp"
+           android:layout_weight="2"
+           android:orientation="vertical"
+           android:padding="5dp">
+
+           <TextView
+               android:id="@+id/card_1_title_tv"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Waterfront Acreage"
+               android:layout_gravity="center_horizontal"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="20sp"/>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/black"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:padding="3dp">
+
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:layout_weight="1"
+                   android:padding="5dp"
+                   android:layout_marginRight="5dp">
+
+                   <TextView
+                       android:layout_width="70dp"
+                       android:layout_height="40dp"
+                       android:text="3"
+                       android:gravity="center_horizontal"
+                       android:textAlignment="center"/>
+
+                   <TextView
+                       android:layout_width="70dp"
+                       android:layout_height="wrap_content"
+                       android:text="Bedroom"
+                       android:gravity="center"
+                       android:textAlignment="center"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:layout_weight="1"
+                   android:padding="5dp"
+                   android:layout_marginRight="5dp">
+
+                   <TextView
+                       android:layout_width="70dp"
+                       android:layout_height="40dp"
+                       android:text="2"
+                       android:gravity="center_horizontal"
+                       android:textAlignment="center"/>
+
+                   <TextView
+                       android:layout_width="70dp"
+                       android:layout_height="wrap_content"
+                       android:text="Bathroom"
+                       android:gravity="center"
+                       android:textAlignment="center"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:layout_weight="1"
+                   android:padding="5dp"
+                   android:layout_marginRight="5dp">
+
+                   <TextView
+                       android:layout_width="70dp"
+                       android:layout_height="40dp"
+                       android:text="1978"
+                       android:gravity="center_horizontal"
+                       android:textAlignment="center"/>
+
+                   <TextView
+                       android:layout_width="70dp"
+                       android:layout_height="wrap_content"
+                       android:text="Built"
+                       android:gravity="center"
+                       android:textAlignment="center"/>
+
+               </LinearLayout>
+
+
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <!--second Card-->
+
+    <LinearLayout
+        android:id="@+id/card_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:src="@drawable/property_2_img_1"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/card_2_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.98 Acre Property"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:text="2"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bedroom"
+                        android:gravity="center"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:text="2"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bathroom"
+                        android:gravity="center"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:text="2010"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="Built"
+                        android:gravity="center"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <!--Third Card-->
+
+    <LinearLayout
+        android:id="@+id/card_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:src="@drawable/property_3_img_1"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="128dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/card_3_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOOKING FOR PRIVACY"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:text="1"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bedroom"
+                        android:gravity="center"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:text="1"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bathroom"
+                        android:gravity="center"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:text="2002"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="center"/>
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="Built"
+                        android:gravity="center"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
